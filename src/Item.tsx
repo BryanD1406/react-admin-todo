@@ -78,7 +78,7 @@ export const Item = () => {
             onBlur={handleUpdate}
           />
           <label className="visually-hidden" htmlFor="edit-todo-input">
-            Edit Todo Input
+            Editar tarea
           </label>
         </div>
       )}

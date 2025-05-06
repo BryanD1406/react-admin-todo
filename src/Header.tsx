@@ -17,12 +17,12 @@ export const Header = () => {
 
   return (
     <header className="header">
-      <h1>todos</h1>
+      <h1>TAREAS</h1>
 
       <input
         className="new-todo"
         onKeyDown={handleKeyDown}
-        placeholder="What needs to be done?"
+        placeholder="¿Qué tienes por hacer?"
         autoFocus
       />
     </header>

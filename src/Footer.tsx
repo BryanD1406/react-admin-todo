@@ -21,7 +21,7 @@ export const Footer = () => {
     <footer className="footer">
       <span className="todo-count">
         <strong>{total}</strong>
-        {total === 1 ? " item" : " items"} left
+        {total === 1 ? " tarea" : " tareas"} por hacer
       </span>
 
       <ul className="filters">
@@ -30,7 +30,7 @@ export const Footer = () => {
             className={clsx({
               selected: !Object.prototype.hasOwnProperty.call(
                 filterValues,
-                "completed",
+                "Completado",
               ),
             })}
             href="#"
@@ -39,7 +39,7 @@ export const Footer = () => {
               event.preventDefault();
             }}
           >
-            All
+            Todos
           </a>
         </li>
         <li>
@@ -51,7 +51,7 @@ export const Footer = () => {
               event.preventDefault();
             }}
           >
-            Active
+            Pendientes
           </a>
         </li>
         <li>
@@ -63,14 +63,14 @@ export const Footer = () => {
               event.preventDefault();
             }}
           >
-            Completed
+            Completos
           </a>
         </li>
       </ul>
 
       {total != null && (
         <button className="clear-completed" onClick={handleClearCompleted}>
-          Clear completed
+          Limpiar completados
         </button>
       )}
     </footer>

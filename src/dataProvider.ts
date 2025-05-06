@@ -5,17 +5,17 @@ const data = {
   todos: [
     {
       id: 0,
-      title: "Wash the dishes",
+      title: "Lavar los platos",
       completed: false,
     },
     {
       id: 1,
-      title: "Do the laundry",
+      title: "Limpiar la casa",
       completed: true,
     },
     {
       id: 2,
-      title: "Buy groceries",
+      title: "Comprar comida",
       completed: false,
     },
   ],
